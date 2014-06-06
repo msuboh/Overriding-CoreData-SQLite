@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AppDefaults" syncable="YES">
+        <attribute name="a_GameName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appDefault" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="b_LogoImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="c_TotalNumberOfPlayBalls" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="50" defaultValueString="5" syncable="YES"/>
+        <attribute name="d_RepeatEachPlayBallNumbers" optional="YES" attributeType="Boolean" syncable="YES">
+            <userInfo>
+                <entry key="IfNo" value="Numbers Can't Be Repeated."/>
+                <entry key="IfYes" value="Yes, Can be Repeated."/>
+            </userInfo>
+        </attribute>
+        <attribute name="e_MinimumPlayNumber" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="99" defaultValueString="1" syncable="YES"/>
+        <attribute name="f_MaximumPlayNumber" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="99" defaultValueString="60" syncable="YES"/>
+        <attribute name="g_ExtraBallName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="h_ExtraBall" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="IfNo" value="No Exrta Ball"/>
+                <entry key="IfYes" value="Yes, Do Have Extra Ball"/>
+            </userInfo>
+        </attribute>
+        <attribute name="i_TotalNumberOfExtraPlayBalls" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="5" defaultValueString="1" syncable="YES"/>
+        <attribute name="j_MinimumExtraBallPlayNumber" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="99" defaultValueString="1" syncable="YES"/>
+        <attribute name="k_MaximumExtraBallPlayNumber" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="99" defaultValueString="30" syncable="YES"/>
+        <attribute name="l_GameNotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo>
+                <entry key="Show" value="1"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <entity name="Event">
+        <attribute name="a_GameName" optional="YES" attributeType="String" defaultValueString="Not Set Yet" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="Enter your favorate local Lottery Game Name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="appDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="Show" value="0"/>
+            </userInfo>
+        </attribute>
+        <attribute name="b_LogoImage" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="Choose from Your Photos App Album, or take a Snapshot from your iPhone Camera for any part of Play Slip."/>
+            </userInfo>
+        </attribute>
+        <attribute name="c_TotalNumberOfPlayBalls" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="50" defaultValueString="5" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="Numbers between 1 and 50 are only accepted."/>
+            </userInfo>
+        </attribute>
+        <attribute name="d_RepeatEachPlayBallNumbers" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="Each Ball can have same Number selected and repeated in each vertical column for each Play Ball."/>
+                <entry key="IfNo" value="Numbers Can't Be Repeated."/>
+                <entry key="IfYes" value="Yes, Can be Repeated."/>
+            </userInfo>
+        </attribute>
+        <attribute name="e_MinimumPlayNumber" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="5" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="You can set Numbers from 0-5, but please choose wisely according to the play slip setup."/>
+            </userInfo>
+        </attribute>
+        <attribute name="f_MaximumPlayNumber" optional="YES" attributeType="Integer 16" minValueString="9" maxValueString="99" defaultValueString="60" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="You can set Numbers from 9-99, but please choose wisely according to the play slip setup."/>
+            </userInfo>
+        </attribute>
+        <attribute name="g_ExtraBallName" optional="YES" attributeType="String" defaultValueString="Not Set Yet" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="Enter the name of the Extra Ball Play (i.e. PowerBall, MegaBall, ... etc.)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="h_ExtraBall" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="If the Lottery Game have an Extra Ball to choose from! (i.e. PowerBall, MegaBall, ... etc.). Then turn the switch ON."/>
+                <entry key="IfNo" value="No Exrta Ball"/>
+                <entry key="IfYes" value="Yes, Game Have an Extra Ball"/>
+            </userInfo>
+        </attribute>
+        <attribute name="i_TotalNumberOfExtraPlayBalls" optional="YES" attributeType="Integer 16" minValueString="1" maxValueString="5" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="Numbers between 1 and 5 are only accepted."/>
+            </userInfo>
+        </attribute>
+        <attribute name="j_MinimumExtraBallPlayNumber" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="5" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="You can set Numbers from 0-5, but please choose wisely according to the play slip setup."/>
+            </userInfo>
+        </attribute>
+        <attribute name="k_MaximumExtraBallPlayNumber" optional="YES" attributeType="Integer 16" minValueString="9" maxValueString="99" defaultValueString="30" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="You can set Numbers from 9-99, but please choose wisely according to the play slip setup."/>
+            </userInfo>
+        </attribute>
+        <attribute name="l_GameNotes" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="FieldNote" value="You can fill this section of any notes, comments, winning numbers, numbers you selected before, anything you like! "/>
+            </userInfo>
+        </attribute>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo>
+                <entry key="Show" value="0"/>
+            </userInfo>
+        </attribute>
+        <userInfo>
+            <entry key="FieldNote" value="Numbers between 1 and 50 only..."/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="AppDefaults" positionX="261" positionY="279" width="128" height="253"/>
+        <element name="Event" positionX="261" positionY="189" width="128" height="255"/>
+    </elements>
+</model>

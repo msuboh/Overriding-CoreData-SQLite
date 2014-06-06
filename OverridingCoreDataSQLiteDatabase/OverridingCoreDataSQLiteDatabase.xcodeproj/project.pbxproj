@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46AB96A193D64E5006EEF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB969193D64E5006EEF5C /* Foundation.framework */; };
+		C46AB96C193D64E5006EEF5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB96B193D64E5006EEF5C /* CoreGraphics.framework */; };
+		C46AB96E193D64E5006EEF5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB96D193D64E5006EEF5C /* UIKit.framework */; };
+		C46AB970193D64E5006EEF5C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB96F193D64E5006EEF5C /* CoreData.framework */; };
+		C46AB976193D64E5006EEF5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C46AB974193D64E5006EEF5C /* InfoPlist.strings */; };
+		C46AB978193D64E5006EEF5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AB977193D64E5006EEF5C /* main.m */; };
+		C46AB97C193D64E5006EEF5C /* MHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AB97B193D64E5006EEF5C /* MHSAppDelegate.m */; };
+		C46AB97F193D64E5006EEF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46AB97D193D64E5006EEF5C /* Main.storyboard */; };
+		C46AB982193D64E5006EEF5C /* LotteryNumbers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C46AB980193D64E5006EEF5C /* LotteryNumbers.xcdatamodeld */; };
+		C46AB985193D64E5006EEF5C /* MHSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AB984193D64E5006EEF5C /* MHSMasterViewController.m */; };
+		C46AB988193D64E5006EEF5C /* MHSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AB987193D64E5006EEF5C /* MHSDetailViewController.m */; };
+		C46AB98A193D64E5006EEF5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46AB989193D64E5006EEF5C /* Images.xcassets */; };
+		C46AB991193D64E6006EEF5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB990193D64E6006EEF5C /* XCTest.framework */; };
+		C46AB992193D64E6006EEF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB969193D64E5006EEF5C /* Foundation.framework */; };
+		C46AB993193D64E6006EEF5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB96D193D64E5006EEF5C /* UIKit.framework */; };
+		C46AB994193D64E6006EEF5C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46AB96F193D64E5006EEF5C /* CoreData.framework */; };
+		C46AB99C193D64E6006EEF5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C46AB99A193D64E6006EEF5C /* InfoPlist.strings */; };
+		C46AB99E193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46AB99D193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.m */; };
+		C46AB9A8193D653A006EEF5C /* LotteryNumbers.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C46AB9A7193D653A006EEF5C /* LotteryNumbers.sqlite */; };
+		C46ABA93193E288F006EEF5C /* DefaultImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = C46ABA92193E288F006EEF5C /* DefaultImage2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C46AB995193D64E6006EEF5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46AB95E193D64E5006EEF5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46AB965193D64E5006EEF5C;
+			remoteInfo = OverridingCoreDataSQLiteDatabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C46AB966193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverridingCoreDataSQLiteDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46AB969193D64E5006EEF5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C46AB96B193D64E5006EEF5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C46AB96D193D64E5006EEF5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C46AB96F193D64E5006EEF5C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C46AB973193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverridingCoreDataSQLiteDatabase-Info.plist"; sourceTree = "<group>"; };
+		C46AB975193D64E5006EEF5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C46AB977193D64E5006EEF5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C46AB979193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OverridingCoreDataSQLiteDatabase-Prefix.pch"; sourceTree = "<group>"; };
+		C46AB97A193D64E5006EEF5C /* MHSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSAppDelegate.h; sourceTree = "<group>"; };
+		C46AB97B193D64E5006EEF5C /* MHSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSAppDelegate.m; sourceTree = "<group>"; };
+		C46AB97E193D64E5006EEF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C46AB981193D64E5006EEF5C /* LotteryNumbers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LotteryNumbers.xcdatamodel; sourceTree = "<group>"; };
+		C46AB983193D64E5006EEF5C /* MHSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSMasterViewController.h; sourceTree = "<group>"; };
+		C46AB984193D64E5006EEF5C /* MHSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSMasterViewController.m; sourceTree = "<group>"; };
+		C46AB986193D64E5006EEF5C /* MHSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSDetailViewController.h; sourceTree = "<group>"; };
+		C46AB987193D64E5006EEF5C /* MHSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSDetailViewController.m; sourceTree = "<group>"; };
+		C46AB989193D64E5006EEF5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C46AB98F193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverridingCoreDataSQLiteDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46AB990193D64E6006EEF5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C46AB999193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverridingCoreDataSQLiteDatabaseTests-Info.plist"; sourceTree = "<group>"; };
+		C46AB99B193D64E6006EEF5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C46AB99D193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverridingCoreDataSQLiteDatabaseTests.m; sourceTree = "<group>"; };
+		C46AB9A7193D653A006EEF5C /* LotteryNumbers.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = LotteryNumbers.sqlite; sourceTree = "<group>"; };
+		C46ABA92193E288F006EEF5C /* DefaultImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultImage2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C46AB963193D64E5006EEF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AB96C193D64E5006EEF5C /* CoreGraphics.framework in Frameworks */,
+				C46AB970193D64E5006EEF5C /* CoreData.framework in Frameworks */,
+				C46AB96E193D64E5006EEF5C /* UIKit.framework in Frameworks */,
+				C46AB96A193D64E5006EEF5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46AB98C193D64E6006EEF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AB991193D64E6006EEF5C /* XCTest.framework in Frameworks */,
+				C46AB994193D64E6006EEF5C /* CoreData.framework in Frameworks */,
+				C46AB993193D64E6006EEF5C /* UIKit.framework in Frameworks */,
+				C46AB992193D64E6006EEF5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C46AB95D193D64E5006EEF5C = {
+			isa = PBXGroup;
+			children = (
+				C46AB971193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase */,
+				C46AB997193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests */,
+				C46AB968193D64E5006EEF5C /* Frameworks */,
+				C46AB967193D64E5006EEF5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C46AB967193D64E5006EEF5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C46AB966193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase.app */,
+				C46AB98F193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C46AB968193D64E5006EEF5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C46AB969193D64E5006EEF5C /* Foundation.framework */,
+				C46AB96B193D64E5006EEF5C /* CoreGraphics.framework */,
+				C46AB96D193D64E5006EEF5C /* UIKit.framework */,
+				C46AB96F193D64E5006EEF5C /* CoreData.framework */,
+				C46AB990193D64E6006EEF5C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46AB971193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				C46ABA92193E288F006EEF5C /* DefaultImage2.png */,
+				C46AB97A193D64E5006EEF5C /* MHSAppDelegate.h */,
+				C46AB97B193D64E5006EEF5C /* MHSAppDelegate.m */,
+				C46AB97D193D64E5006EEF5C /* Main.storyboard */,
+				C46AB983193D64E5006EEF5C /* MHSMasterViewController.h */,
+				C46AB984193D64E5006EEF5C /* MHSMasterViewController.m */,
+				C46AB986193D64E5006EEF5C /* MHSDetailViewController.h */,
+				C46AB987193D64E5006EEF5C /* MHSDetailViewController.m */,
+				C46AB9A7193D653A006EEF5C /* LotteryNumbers.sqlite */,
+				C46AB989193D64E5006EEF5C /* Images.xcassets */,
+				C46AB980193D64E5006EEF5C /* LotteryNumbers.xcdatamodeld */,
+				C46AB972193D64E5006EEF5C /* Supporting Files */,
+			);
+			path = OverridingCoreDataSQLiteDatabase;
+			sourceTree = "<group>";
+		};
+		C46AB972193D64E5006EEF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C46AB973193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase-Info.plist */,
+				C46AB974193D64E5006EEF5C /* InfoPlist.strings */,
+				C46AB977193D64E5006EEF5C /* main.m */,
+				C46AB979193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C46AB997193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C46AB99D193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.m */,
+				C46AB998193D64E6006EEF5C /* Supporting Files */,
+			);
+			path = OverridingCoreDataSQLiteDatabaseTests;
+			sourceTree = "<group>";
+		};
+		C46AB998193D64E6006EEF5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C46AB999193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests-Info.plist */,
+				C46AB99A193D64E6006EEF5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C46AB965193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46AB9A1193D64E6006EEF5C /* Build configuration list for PBXNativeTarget "OverridingCoreDataSQLiteDatabase" */;
+			buildPhases = (
+				C46AB962193D64E5006EEF5C /* Sources */,
+				C46AB963193D64E5006EEF5C /* Frameworks */,
+				C46AB964193D64E5006EEF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverridingCoreDataSQLiteDatabase;
+			productName = OverridingCoreDataSQLiteDatabase;
+			productReference = C46AB966193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C46AB98E193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46AB9A4193D64E6006EEF5C /* Build configuration list for PBXNativeTarget "OverridingCoreDataSQLiteDatabaseTests" */;
+			buildPhases = (
+				C46AB98B193D64E6006EEF5C /* Sources */,
+				C46AB98C193D64E6006EEF5C /* Frameworks */,
+				C46AB98D193D64E6006EEF5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46AB996193D64E6006EEF5C /* PBXTargetDependency */,
+			);
+			name = OverridingCoreDataSQLiteDatabaseTests;
+			productName = OverridingCoreDataSQLiteDatabaseTests;
+			productReference = C46AB98F193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C46AB95E193D64E5006EEF5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MHS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maher Suboh";
+				TargetAttributes = {
+					C46AB98E193D64E6006EEF5C = {
+						TestTargetID = C46AB965193D64E5006EEF5C;
+					};
+				};
+			};
+			buildConfigurationList = C46AB961193D64E5006EEF5C /* Build configuration list for PBXProject "OverridingCoreDataSQLiteDatabase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C46AB95D193D64E5006EEF5C;
+			productRefGroup = C46AB967193D64E5006EEF5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46AB965193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase */,
+				C46AB98E193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C46AB964193D64E5006EEF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AB9A8193D653A006EEF5C /* LotteryNumbers.sqlite in Resources */,
+				C46ABA93193E288F006EEF5C /* DefaultImage2.png in Resources */,
+				C46AB98A193D64E5006EEF5C /* Images.xcassets in Resources */,
+				C46AB976193D64E5006EEF5C /* InfoPlist.strings in Resources */,
+				C46AB97F193D64E5006EEF5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46AB98D193D64E6006EEF5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AB99C193D64E6006EEF5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C46AB962193D64E5006EEF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AB978193D64E5006EEF5C /* main.m in Sources */,
+				C46AB988193D64E5006EEF5C /* MHSDetailViewController.m in Sources */,
+				C46AB982193D64E5006EEF5C /* LotteryNumbers.xcdatamodeld in Sources */,
+				C46AB97C193D64E5006EEF5C /* MHSAppDelegate.m in Sources */,
+				C46AB985193D64E5006EEF5C /* MHSMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46AB98B193D64E6006EEF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46AB99E193D64E6006EEF5C /* OverridingCoreDataSQLiteDatabaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C46AB996193D64E6006EEF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46AB965193D64E5006EEF5C /* OverridingCoreDataSQLiteDatabase */;
+			targetProxy = C46AB995193D64E6006EEF5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C46AB974193D64E5006EEF5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46AB975193D64E5006EEF5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C46AB97D193D64E5006EEF5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46AB97E193D64E5006EEF5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C46AB99A193D64E6006EEF5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46AB99B193D64E6006EEF5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C46AB99F193D64E6006EEF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C46AB9A0193D64E6006EEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46AB9A2193D64E6006EEF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverridingCoreDataSQLiteDatabase/OverridingCoreDataSQLiteDatabase-Prefix.pch";
+				INFOPLIST_FILE = "OverridingCoreDataSQLiteDatabase/OverridingCoreDataSQLiteDatabase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C46AB9A3193D64E6006EEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverridingCoreDataSQLiteDatabase/OverridingCoreDataSQLiteDatabase-Prefix.pch";
+				INFOPLIST_FILE = "OverridingCoreDataSQLiteDatabase/OverridingCoreDataSQLiteDatabase-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C46AB9A5193D64E6006EEF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OverridingCoreDataSQLiteDatabase.app/OverridingCoreDataSQLiteDatabase";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverridingCoreDataSQLiteDatabase/OverridingCoreDataSQLiteDatabase-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OverridingCoreDataSQLiteDatabaseTests/OverridingCoreDataSQLiteDatabaseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C46AB9A6193D64E6006EEF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OverridingCoreDataSQLiteDatabase.app/OverridingCoreDataSQLiteDatabase";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverridingCoreDataSQLiteDatabase/OverridingCoreDataSQLiteDatabase-Prefix.pch";
+				INFOPLIST_FILE = "OverridingCoreDataSQLiteDatabaseTests/OverridingCoreDataSQLiteDatabaseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C46AB961193D64E5006EEF5C /* Build configuration list for PBXProject "OverridingCoreDataSQLiteDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46AB99F193D64E6006EEF5C /* Debug */,
+				C46AB9A0193D64E6006EEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46AB9A1193D64E6006EEF5C /* Build configuration list for PBXNativeTarget "OverridingCoreDataSQLiteDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46AB9A2193D64E6006EEF5C /* Debug */,
+				C46AB9A3193D64E6006EEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46AB9A4193D64E6006EEF5C /* Build configuration list for PBXNativeTarget "OverridingCoreDataSQLiteDatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46AB9A5193D64E6006EEF5C /* Debug */,
+				C46AB9A6193D64E6006EEF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C46AB980193D64E5006EEF5C /* LotteryNumbers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C46AB981193D64E5006EEF5C /* LotteryNumbers.xcdatamodel */,
+			);
+			currentVersion = C46AB981193D64E5006EEF5C /* LotteryNumbers.xcdatamodel */;
+			path = LotteryNumbers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C46AB95E193D64E5006EEF5C /* Project object */;
+}
